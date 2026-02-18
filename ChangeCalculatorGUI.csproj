@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Basic project configuration -->
+  <PropertyGroup>
+    <!-- Specifies the output type of the project: a Windows executable -->
+    <OutputType>WinExe</OutputType>
+
+    <!-- Target framework for the project. Ensure compatibility with .NET 9.0 -->
+    <TargetFramework>net9.0</TargetFramework>
+
+    <!-- Enable nullable reference types for safer code -->
+    <Nullable>enable</Nullable>
+
+    <!-- Enable built-in COM interop support -->
+    <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+
+    <!-- Specify the application manifest file -->
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+
+    <!-- Use compiled bindings by default for better performance -->
+    <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+  </PropertyGroup>
+
+  <!-- Dependencies for the project -->
+  <ItemGroup>
+    <!-- Avalonia framework for building cross-platform GUIs -->
+    <PackageReference Include="Avalonia" Version="11.2.1" />
+
+    <!-- Avalonia package specifically for desktop applications -->
+    <PackageReference Include="Avalonia.Desktop" Version="11.2.1" />
+
+    <!-- Fluent theme for Avalonia to make the application look modern -->
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.2.1" />
+
+    <!-- Inter font package for better text rendering -->
+    <PackageReference Include="Avalonia.Fonts.Inter" Version="11.2.1" />
+
+    <!-- Avalonia.Diagnostics for debugging during development -->
+    <PackageReference Include="Avalonia.Diagnostics" Version="11.2.1">
+      <!-- Exclude Avalonia.Diagnostics from the output in Release configuration -->
+      <IncludeAssets Condition="'$(Configuration)' != 'Debug'">None</IncludeAssets>
+      <PrivateAssets Condition="'$(Configuration)' != 'Debug'">All</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>
