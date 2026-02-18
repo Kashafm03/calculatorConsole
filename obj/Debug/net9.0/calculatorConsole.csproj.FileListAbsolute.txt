@@ -1,0 +1,7 @@
+/Users/kashafmahmood/Desktop/console/calculatorConsole/obj/Debug/net9.0/calculatorConsole.csproj.AssemblyReference.cache
+/Users/kashafmahmood/Desktop/console/calculatorConsole/obj/Debug/net9.0/Avalonia/Resources.Inputs.cache
+/Users/kashafmahmood/Desktop/console/calculatorConsole/obj/Debug/net9.0/Avalonia/resources
+/Users/kashafmahmood/Desktop/console/calculatorConsole/obj/Debug/net9.0/calculatorConsole.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kashafmahmood/Desktop/console/calculatorConsole/obj/Debug/net9.0/calculatorConsole.AssemblyInfoInputs.cache
+/Users/kashafmahmood/Desktop/console/calculatorConsole/obj/Debug/net9.0/calculatorConsole.AssemblyInfo.cs
+/Users/kashafmahmood/Desktop/console/calculatorConsole/obj/Debug/net9.0/calculatorConsole.csproj.CoreCompileInputs.cache

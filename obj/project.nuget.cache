@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "l53tvatgd5I=",
+  "success": true,
+  "projectFilePath": "/Users/kashafmahmood/Desktop/console/calculatorConsole/calculatorConsole.csproj",
+  "expectedPackageFiles": [
+    "/Users/kashafmahmood/.nuget/packages/avalonia/11.2.3/avalonia.11.2.3.nupkg.sha512",
+    "/Users/kashafmahmood/.nuget/packages/avalonia.buildservices/0.0.29/avalonia.buildservices.0.0.29.nupkg.sha512",
+    "/Users/kashafmahmood/.nuget/packages/avalonia.remote.protocol/11.2.3/avalonia.remote.protocol.11.2.3.nupkg.sha512",
+    "/Users/kashafmahmood/.nuget/packages/microcom.runtime/0.11.0/microcom.runtime.0.11.0.nupkg.sha512"
+  ],
+  "logs": []
+}
